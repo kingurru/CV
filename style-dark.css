@@ -150,6 +150,9 @@ body {
     background-image: url("img/icon-php.svg");
 }
 
+.skill-git {
+    background-image: url("img/icon-git.svg");
+}
 
 .level {
     margin: 4px 0 16px;
