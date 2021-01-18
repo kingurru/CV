@@ -39,7 +39,7 @@ body {
     text-align: right;
 }
 
-.page-header a {
+a {
     margin-left: 15px;
     color: #288be6;
     text-decoration: none;
@@ -47,6 +47,9 @@ body {
     background-position: left;
 }
 
+a.link {
+    margin: 0
+}
 
 .header-button {
     margin-right: 10px;

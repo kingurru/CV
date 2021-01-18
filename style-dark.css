@@ -215,12 +215,16 @@ body {
     background-color: inherit;
 }
 
-.page-footer a {
+a {
     margin-left: 56px;
     color: inherit;
     text-decoration: none;
     background-repeat: no-repeat;
     background-position: left;
+}
+
+a.link {
+    margin: 0
 }
 
 .footer-email {
