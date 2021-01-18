@@ -1,10 +1,8 @@
 let head = document.head
-console.log(head)
 
 let link = head.querySelector('link')
 let myPhoto = document.querySelector('.user-image img')
 let headerButton = document.querySelectorAll('.header-button')
-console.log(myPhoto)
 
 headerButton[0].addEventListener('click', function (evt) {
     evt.preventDefault()

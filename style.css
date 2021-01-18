@@ -17,8 +17,12 @@ body {
     height: 0;
 }
 
-.language__img {
+.language {
+    display: inline-block;
+    vertical-align: bottom;
     cursor: pointer;
+    width: 34px;
+    height: 34px;
 }
 
 
@@ -129,6 +133,10 @@ a.link {
     margin: 0 0 32px;
 }
 
+ol > li {
+    padding-bottom: 15px;
+}
+
 .skills-list {
     margin: 0;
     padding: 0;
@@ -194,6 +202,10 @@ a.link {
 .project-image {
     margin: 0 0 1px;
     text-align: center;
+}
+
+a.layout, a.button {
+    margin: 0;
 }
 
 .intro img, .portfolio img {
