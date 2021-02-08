@@ -10,6 +10,8 @@ body {
     background-image: url("img/hero-bg.jpg");
     background-repeat: no-repeat;
     background-position: top center;
+    background-size: 1920px 1118px;
+
 }
 
 .skiptranslate {
