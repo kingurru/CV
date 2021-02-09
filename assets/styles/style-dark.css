@@ -5,9 +5,9 @@ body {
     font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     font-size: 16px;
     line-height: 32px;
-    color: #222222;
-    background-color: #f2f6f3;
-    background-image: url("img/hero-bg.jpg");
+    color: #d8813d;
+    background-color: #101517;
+    background-image: url("../img/bg-1.jpg");
     background-repeat: no-repeat;
     background-position: top center;
     background-size: 1920px 1118px;
@@ -19,13 +19,6 @@ body {
     height: 0;
 }
 
-.language {
-    display: inline-block;
-    vertical-align: bottom;
-    cursor: pointer;
-    width: 34px;
-    height: 34px;
-}
 
 .container {
     max-width: 928px;
@@ -44,20 +37,26 @@ body {
     text-align: right;
 }
 
-a {
+.page-header a {
     margin-left: 15px;
-    color: #288be6;
+    color: #d67e39;
     text-decoration: none;
     background-repeat: no-repeat;
     background-position: left;
 }
 
-a.link {
-    margin: 0
-}
-
 .header-button {
     margin-right: 10px;
+}
+
+.header-email {
+    padding-left: 30px;
+    background-image: url("../img/icon-email-dark.svg");
+}
+
+.header-phone {
+    padding-left: 25px;
+    background-image: url("../img/icon-phone-dark.svg");
 }
 
 .page-header .header-button {
@@ -67,18 +66,16 @@ a.link {
     vertical-align: baseline;
     text-transform: uppercase;
     border-radius: 4px;
-    background-color: #288be6;
-    color: #ffffff;
+    background-color: #d7782c;
+    color: #030303;
 }
 
-.header-email {
-    padding-left: 30px;
-    background-image: url("img/icon-email-header.svg");
-}
-
-.header-phone {
-    padding-left: 25px;
-    background-image: url("img/icon-phone-header.svg");
+.language {
+    display: inline-block;
+    vertical-align: bottom;
+    cursor: pointer;
+    width: 34px;
+    height: 34px;
 }
 
 .hero-image {
@@ -86,16 +83,15 @@ a.link {
 }
 
 .hero-image .container {
+    color: #211f1f;
     max-width: 1408px;
     text-align: center;
 }
 
 .heading {
-    margin: 0 0 16px;
-    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-    font-size: 88px;
+    margin: 0 0 24px;
+    font-size: 80px;
     line-height: 96px;
-    font-weight: 400;
 }
 
 .hero-image p {
@@ -110,10 +106,8 @@ a.link {
 
 .subheading {
     margin: 0 0 56px;
-    font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-    font-size: 64px;
+    font-size: 56px;
     line-height: 80px;
-    font-weight: 400;
     text-align: center;
 }
 
@@ -124,7 +118,6 @@ a.link {
 
 .intro h3,
 .portfolio h3 {
-    font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
     margin: 0 0 12px;
     font-size: 28px;
     line-height: 40px;
@@ -151,23 +144,23 @@ ol > li {
 }
 
 .skill-html {
-    background-image: url("img/icon-html.svg");
+    background-image: url("../img/icon-html.svg");
 }
 
 .skill-css {
-    background-image: url("img/icon-css.svg");
+    background-image: url("../img/icon-css.svg");
 }
 
 .skill-js {
-    background-image: url("img/icon-js.svg");
+    background-image: url("../img/icon-js.svg");
 }
 
 .skill-php {
-    background-image: url("img/icon-php.svg");
+    background-image: url("../img/icon-php.svg");
 }
 
 .skill-git {
-    background-image: url("img/icon-git.svg");
+    background-image: url("../img/icon-git.svg");
 }
 
 .level {
@@ -175,16 +168,17 @@ ol > li {
     padding: 0;
     height: 14px;
     font-size: 0;
-    background-color: #ffffff;
-    border: 1px solid #86c3fa;
+    background-color: #080208;
+    border: 1px solid #fc7e00;
     border-radius: 8px;
 }
 
 .level div {
     margin: 1px;
     height: 12px;
-    background-color: #288be6;
+    background-color: #fabb98;
     border-radius: 6px;
+    opacity: 0.7;
 }
 
 .portfolio {
@@ -222,24 +216,22 @@ a.layout, a.button {
 }
 
 .button {
-    margin-bottom: 40px;
     padding: 6px 20px;
     display: inline-block;
     vertical-align: baseline;
     text-decoration: none;
     text-transform: uppercase;
     border-radius: 4px;
-    background-color: #288be6;
-    color: #ffffff;
+    background-color: #d7782c;
+    color: #030303;
 }
 
 .page-footer {
     padding: 40px 0;
-    background-color: #00417d;
-    color: #ffffff;
+    background-color: inherit;
 }
 
-.page-footer a {
+a {
     margin-left: 56px;
     color: inherit;
     text-decoration: none;
@@ -247,13 +239,16 @@ a.layout, a.button {
     background-position: left;
 }
 
+a.link {
+    margin: 0
+}
+
 .footer-email {
     padding-left: 30px;
-    background-image: url("img/icon-email-footer.svg");
+    background-image: url("../img/icon-email-dark.svg");
 }
 
 .footer-phone {
     padding-left: 25px;
-    background-image: url("img/icon-phone-footer.svg");
+    background-image: url("../img/icon-phone-dark.svg");
 }
-
